@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#3eb370">
+
+        <com.guojiel.library.WarpHLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66000000"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                app:wl2KeepSelfSize="false"
+                android:text="但愿余心无杂念，不辞平静过此生！"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="#ff00ff"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="#FF0000"
+                android:layout_marginLeft="3dp"/>
+
+        </com.guojiel.library.WarpHLayout>
+
+        <com.guojiel.library.WarpHLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66000000"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                app:wl2KeepSelfSize="false"
+                android:text="不以物喜，不以己悲"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="#ff00ff"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="#FF0000"
+                android:layout_marginLeft="3dp"/>
+
+        </com.guojiel.library.WarpHLayout>
+
+        <com.guojiel.library.WarpHLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66000000"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                app:wl2KeepSelfSize="false"
+                android:text="但愿人长久，千里共婵娟"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="#ff00ff"
+                android:layout_marginLeft="3dp"/>
+
+        </com.guojiel.library.WarpHLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

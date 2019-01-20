@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WarpHLayout_Layout">
+        <attr name="wl2KeepSelfSize" format="boolean"/>
+        <attr name="wl2Gravity" format="integer">
+            <enum name="wl2Top" value="19"/>
+            <enum name="wl2Center" value="21"/>
+            <enum name="wl2Bottom" value="29"/>
+        </attr>
+    </declare-styleable>
+</resources>
